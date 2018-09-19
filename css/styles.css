@@ -1,8 +1,9 @@
 .row > div {
 
-  height: 60px;
-  border: 10px solid white;
+  height: 40px;
+  border: 0px solid white;
   background-color: #669933;
+  margin-bottom: 8px;
 }
 
 
@@ -18,3 +19,4 @@
 .zoom:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
