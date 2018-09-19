@@ -1,10 +1,11 @@
 .row > div {
 
   height: 40px;
-  border: 0px solid white;
-  background-color: #66ff33;
-  margin-bottom: 8px;
   width: 300px;
+  border: 0px solid white;
+  background-color: solid blue;
+  margin-bottom: 8px;
+  
 }
 
 
