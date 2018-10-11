@@ -1,3 +1,5 @@
+
+
 .row > div {
 
   height: 40px;
@@ -8,23 +10,71 @@
 }
 
 
+
 .zoom {
     padding: auto;
     background-color: #669933;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
     width: 200px;
     height: 20px;
     margin: 0 auto;
+
 }
 
 .zoom:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 
 #container {
   margin:0px auto 0px auto;
-  width: 365px;
+  width: 400px;
   }
+
+
+.btn-standard.call-to-action {
+    background-color: #669933;
+    color: #ffffff;
+   /* -webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color: #66bb33;
+		/*-webkit-tap-highlight-color: transparent;*/
+}
+
+
+.btn-standard.basic {
+    background-color: #669933;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 300px;
+    text-align:left ;
+    font-size: 1.2em;
+    margin: auto;
+   /* -webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color: #66bb33;
+		/*-webkit-tap-highlight-color: transparent;*/
+}
+
+
+.btn-standard {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    padding: 0 1rem;
+    background-color: #c8cdd8;
+    color: #434853;
+    font-size: 1.6em;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
 
 /*div { max-width: 400px; }*/
 
@@ -34,4 +84,63 @@
 /*function resizeWinTo() {
     myWindow.resizeTo(800, 600);
     myWindow.focus();
+}
+*/
+
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #669933;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 400;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: ;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/*.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
 }*/
+
+
+
+
+
+
+
+a:link {
+color: #ffffff;
+}
+a:visited {
+color: #ffffff;
+}
+a:hover {
+color: #669933;
+text-decoration: none;
+}
+
+
+
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
